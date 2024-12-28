@@ -1,1 +1,21 @@
-kadai_005
+kadai_005.txt
+PS C:\Users\admin\git_tutorial\git_challenge> cd
+PS C:\Users\admin\git_tutorial\git_challenge> mkdir git_challenge
+S C:\Users\admin\git_tutorial\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git commit -m "こんにちは、世界！"
+[main 87ca77f] こんにちは、世界！
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git commit -m "hello,world!"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/admin/git_tutorial/git_challenge/git_challenge/.git/
+PS C:\Users\admin\git_tutorial\git_challenge\git_challenge> git log --oneline
+87ca77f (HEAD -> main) こんにちは、世界！
+1d51928 add hello_world.txt
